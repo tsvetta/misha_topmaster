@@ -1,0 +1,298 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: 14px/1.21 'Helvetica Neue', arial, sans-serif;
+	font-size: 20px;	
+	font-weight: 300;
+}
+
+html, body {
+	font-weight: 300;
+	color: #1e1e1e;
+}
+
+body {
+	background-color: #fff;
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: 600;	
+}
+
+h2 {
+	font-size: 23px;	
+	font-weight: normal;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 30px;	
+}
+
+h4 {
+	font-size: 20px;
+}
+
+p {
+	font-style: normal;
+}
+
+a {
+	color: #1e1e1e;
+	font-style: normal;
+	text-decoration: none;
+	transition: color .4s;
+}
+
+a:active {
+	color: #454545;
+}
+
+a:hover {
+	color: #454545;
+}
+
+.strong-text {
+	font-weight: 600;
+}
+
+.contact-info {
+	font-size: 20px;
+}
+
+.contact-info-line {
+	position: relative;
+}
+
+.contact-info-link {
+	padding-left: 27px;
+}
+
+.contact-info-phone {
+	margin-bottom: 10px;
+}
+
+.contact-info-messenger {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.contact-icon {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 20px;
+    height: 20px;
+	background-size: 20px 20px;
+	background-position: 0;
+	background-repeat: no-repeat;
+}
+
+.contact-icon.phone {
+	background-image: url('assets/phone.png');
+}
+
+.contact-icon.telegram {
+	background-image: url('assets/telegram.png');
+}
+
+.contact-icon.whatsapp {
+	background-image: url('assets/whatsapp.png');
+}
+
+.page-header {
+	display: block;
+}
+
+.page-header-main {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.page-header-contact-info {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+}
+
+.page-titles {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.page-header-name {
+	display: block;
+}
+
+.page-header-location {
+	display: block;
+	margin-top: 10px;
+	font-size: 20px;	
+	font-weight: 300;
+}
+
+.page-header-occupation {
+	display: block;
+	margin-top: 10px;
+}
+
+.page-header-appointment {
+}
+
+.page-header-appointment-link {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	padding: 13px;
+	font-size: 20px;
+	font-weight: 600;
+	background-color: #05ac50;
+	background: linear-gradient(135deg, #05ac50 0%,#21dd72 60%,#05c44e 65%,#05ac50 68%,#05ac50 100%);
+	border-bottom: 3px solid #05ac50;
+	border-right: 3px solid #05ac50;
+}
+
+.page-header-appointment-link:hover {
+	color: #fff;
+}
+
+.page-header-appointment-link.call {
+	background-color: #01a8c1;
+	background: linear-gradient(135deg, #01a8c1 0%,#2adbf7 60%,#00b5d1 65%,#0aafc9 68%,#0599b1 100%);
+	border-bottom: 3px solid #01a8c1;
+	border-right: 3px solid #01a8c1;
+}
+
+.page-content {
+	color: #fff;
+	background-color: #1e1e1e;
+	min-height: 300px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.section-description {
+	margin: 0 auto;
+	max-width: 800px;
+	margin-bottom: 20px;
+	padding: 0 10px;
+}
+
+.section-description a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.section-description p {
+	margin-bottom: 10px;
+}
+
+.page-section {
+	margin-bottom: 25px;
+}
+
+.page-section-title {
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 20px;
+}
+
+.page-subsection {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.page-subsection-title {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.services-list {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+    max-width: 1200px;
+	margin-bottom: 10px;
+	padding-left: 40px;
+}
+
+.description-ordered-list {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+    max-width: 800px;
+	margin-bottom: 10px;
+	padding-left: 40px;
+}
+
+.text-list {
+	padding-left: 18px;
+}
+
+.services-list li {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.page-footer {
+	padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+	.page-header-main {
+		padding-top: 20px;
+		padding-bottom: 10px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.page-section-title {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.page-subsection {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.page-footer {
+		padding-top: 20px;
+		padding-bottom: 10px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media screen and (max-width: 685px) {
+	.page-header-main {
+		display: block;
+	}
+
+	.page-header-contact-info {
+		display: block;
+		margin-top: 20px;
+	}
+	
+	.page-titles {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.page-header-appointment-link {
+		display: block;
+		width: 100%;
+		padding: 13px;
+	}
+}

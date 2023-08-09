@@ -1,0 +1,133 @@
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: #2c2c2c;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative
+}
+
+table * {
+    color: #fff;
+    position: relative;
+}
+
+table td,table th {
+    padding-left: 8px
+}
+
+table thead tr {
+    height: 60px;
+    background: #36304a
+}
+
+table tbody tr {
+    height: 50px
+}
+
+table tbody tr:last-child {
+    border: 0
+}
+
+table td,table th {
+    text-align: left;
+    padding: 6px 0;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #373737
+}
+
+tbody tr {
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    color: gray;
+    line-height: 1.2;
+    font-weight: unset
+}
+
+.column1 {
+    width: 70%;
+    padding-left: 40px
+}
+
+.column2 {
+    width: 30%;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.column-wide {
+    text-align: center;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 530px) {
+    table {
+        display:block
+    }
+
+    table td,table th {
+        padding: 0;
+    }
+
+    table>*,table tr,table td,table th {
+        display: block
+    }
+
+    table thead {
+        display: none
+    }
+
+    table tbody tr {
+        height: auto;
+        padding: 10px 0
+    }
+
+    table tbody tr td {
+        padding-left: 105px !important;
+    }
+
+    table tbody tr td:last-child {
+        margin-bottom: 0
+    }
+
+    table tbody tr td:only-child {
+        text-align: left;
+    }
+
+    table tbody tr td:before {
+        color: #999;
+        position: absolute;
+        width: 40%;
+        left: 20px;
+        top: 0;
+    }
+
+    table tbody tr td:nth-child(1):before {
+        content: "Услуга:"
+    }
+
+    table tbody tr td:only-child:before {
+        content: "";
+    }
+
+    table tbody tr td:nth-child(2):before {
+        content: "Цена:"
+    }
+
+    .column-wide td {
+        padding: 0;
+    }
+
+    .column1,.column2 {
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    .column2 {
+        text-align: left;
+    }
+}
