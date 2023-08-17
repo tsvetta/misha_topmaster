@@ -1,64 +1,8 @@
-import PriceTable from './components/PriceTable';
+import { Header } from './components/Header';
+import { PriceTable } from './components/PriceTable';
+import { Footer } from './components/Footer';
 
 import './style';
-
-export function ContactIcon({ type }) {
-
-	return (
-		<div className={`contact-icon ${type}`} />
-	);
-}
-
-export function ContactInfo() {
-	return (
-		<address className="contact-info">
-			<p className="contact-info-line contact-info-phone">
-				<ContactIcon type="phone" />
-				<a className="contact-info-link" href="tel:+995555758598">+995 555 75 85 98</a>
-			</p>
-			<p className="contact-info-line contact-info-messenger">
-				<ContactIcon type="telegram" />
-				<a className="contact-info-link" href="https://t.me/y82ndgaki">Telegram</a>
-			</p>
-			<p className="contact-info-line contact-info-messenger">
-				<ContactIcon type="whatsapp" />
-				<a className="contact-info-link" href="https://wa.me/995555758598">WhatsApp</a>
-			</p>
-		</address>
-	);
-}
-
-export function Header() {
-	return (
-		<header className="page-header">
-			<div className="page-header-main">
-				<div className="page-titles">
-					<h1 className="page-header-name">Сантехника, электрика, ремонт</h1>
-					<p className="page-header-location">Тбилиси, Грузия</p>
-					<h2 className="page-header-occupation">Михаил Бородин, мастер</h2>
-				</div>
-				<div className="page-header-contact-info">
-					<ContactInfo />
-				</div>
-			</div>
-			<div className="page-header-appointment">
-				<a href="https://calendly.com/plumber-electrician-tbilisi/appointment" target="_blank" className="page-header-appointment-link">Записаться онлайн</a>
-				<a href="tel:+995555758598" className="page-header-appointment-link call">Позвонить</a>
-			</div>
-		</header>
-	)
-}
-
-export function Footer() {
-	return (
-		<footer className="page-footer">
-			<div className="page-footer-main">
-				<ContactInfo />
-				<p className="year">© 2023</p>
-			</div>
-		</footer>
-	)
-}
 
 export default function App() {
 	document.title = 'Михаил Бородин | Сантехника, электрика | Тбилиси, Грузия';

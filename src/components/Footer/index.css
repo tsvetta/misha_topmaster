@@ -1,0 +1,21 @@
+.pageFooterMain {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.pageFooter {
+	padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+	.pageFooter {
+		padding-top: 20px;
+		padding-bottom: 10px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}

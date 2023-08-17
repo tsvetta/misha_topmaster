@@ -2,7 +2,7 @@ import styles from './index.css';
 
 import pricesData from '../../data/prices.json';
 
-export default function PriceTable() {
+export function PriceTable() {
     return (
         <table className="price-table">
             <tbody>

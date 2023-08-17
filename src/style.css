@@ -114,8 +114,7 @@ dt * {
 	display: block;
 }
 
-.page-header-main,
-.page-footer-main {
+.page-header-main {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -251,13 +250,6 @@ dt * {
 	line-height: 28px;
 }
 
-.page-footer {
-	padding-top: 30px;
-    padding-bottom: 25px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
 @media screen and (max-width: 1024px) {
 	.page-header-main {
 		padding-top: 20px;
@@ -272,13 +264,6 @@ dt * {
 	}
 
 	.page-subsection {
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-
-	.page-footer {
-		padding-top: 20px;
-		padding-bottom: 10px;
 		padding-left: 30px;
 		padding-right: 30px;
 	}
