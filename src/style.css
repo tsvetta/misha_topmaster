@@ -58,6 +58,14 @@ a:hover {
 	font-weight: 600;
 }
 
+dt, dd {
+	margin-bottom: 10px;
+}
+
+dt * {
+	font-weight: 600;
+}
+
 .contact-info {
 	font-size: 20px;
 }
@@ -106,9 +114,11 @@ a:hover {
 	display: block;
 }
 
-.page-header-main {
+.page-header-main,
+.page-footer-main {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	padding-top: 50px;
 	padding-bottom: 20px;
 	padding-left: 100px;
