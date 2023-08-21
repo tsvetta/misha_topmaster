@@ -2,7 +2,7 @@ import styles from './index.css';
 
 import pricesData from '../../data/prices.json';
 
-export function PriceTable() {
+export function ServicesTable({ hiddenPrices }) {
     return (
         <table className="price-table">
             <tbody>
@@ -14,7 +14,7 @@ export function PriceTable() {
                         {sectionData.content.map((sectionContent) => (
                             <tr>
                                 <td className={styles.column1}>{sectionContent.name}</td>
-                                <td className={styles.column2}>{sectionContent.price}</td>
+                                {hiddenPrices ? null : <td className={styles.column2}>{sectionContent.price}</td>}
                             </tr>
                         ))}
                     </>)

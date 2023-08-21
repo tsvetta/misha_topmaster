@@ -7,7 +7,7 @@ export function Footer() {
 		<footer className={styles.pageFooter}>
 			<div className={styles.pageFooterMain}>
 				<ContactInfo />
-				<p>© 2023</p>
+				<p className={styles.year}>© 2023</p>
 			</div>
 		</footer>
 	)

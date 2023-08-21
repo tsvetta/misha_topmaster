@@ -48,12 +48,13 @@ tbody tr {
     font-weight: unset;
 }
 
-td.column1 {
+.column1 {
     width: 70%;
     padding-left: 40px;
+    padding-right: 40px;
 }
 
-td.column2 {
+.column2 {
     width: 30%;
     text-align: right;
     padding-right: 40px;
@@ -90,7 +91,7 @@ td.column2 {
     }
 
     table tbody tr td {
-        padding-left: 105px !important;
+        padding: 0 15px !important;
     }
 
     table tbody tr td:last-child {
@@ -109,7 +110,7 @@ td.column2 {
         top: 0;
     }
 
-    table tbody tr td:nth-child(1):before {
+    /* table tbody tr td:nth-child(1):before {
         content: "Услуга:"
     }
 
@@ -119,15 +120,16 @@ td.column2 {
 
     table tbody tr td:nth-child(2):before {
         content: "Цена:"
-    }
+    } */
 
     .column-wide td {
         padding: 0;
     }
 
-    .column1,.column2 {
+    .column1, .column2 {
         width: 100%;
         padding-right: 10px;
+        padding-left: 10px;
     }
 
     .column2 {
