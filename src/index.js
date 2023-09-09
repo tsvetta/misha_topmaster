@@ -5,8 +5,6 @@ import { Footer } from './components/Footer';
 import './style';
 
 export default function App() {
-	document.title = 'Михаил Бородин | Сантехника, электрика | Тбилиси, Грузия';
-
 	return (
 		<>
 			<Header />
