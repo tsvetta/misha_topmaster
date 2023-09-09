@@ -33,7 +33,7 @@ jobs:
 
       - run: npm ci
 
-      - run: npm run build
+      - run: PUBLIC_PATH=/misha_topmaster/ npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
