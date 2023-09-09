@@ -1,0 +1,21 @@
+{
+  "bundle.css": "bundle.cb966.css",
+  "bundle.js": "bundle.b0a5b.esm.js",
+  "bundle.js.map": "bundle.b0a5b.esm.js.map",
+  "polyfills.js": "polyfills.43828.esm.js",
+  "polyfills.js.map": "polyfills.43828.esm.js.map",
+  "assets/favicon.ico": "assets/favicon.ico",
+  "assets/icon.png": "assets/icon.png",
+  "assets/phone.png": "assets/phone.png",
+  "assets/telegram.png": "assets/telegram.png",
+  "assets/whatsapp.png": "assets/whatsapp.png",
+  "phone.png": "baca713e03f2dab9ff85b87d75c36a5f.png",
+  "bundle.cb966.css.map": "bundle.cb966.css.map",
+  "telegram.png": "e9722f26cc228e817986d0422b34dece.png",
+  "whatsapp.png": "efdb3204559596be12577f6ea559e5b6.png",
+  "manifest.json": "manifest.json",
+  "sw-esm.js": "sw-esm.js",
+  "sw-esm.js.map": "sw-esm.js.map",
+  "sw.js": "sw.js",
+  "sw.js.map": "sw.js.map"
+}
