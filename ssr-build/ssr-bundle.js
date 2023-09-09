@@ -215,7 +215,7 @@ function Header() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(h, Fragment) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return App; });
+/* WEBPACK VAR INJECTION */(function(h) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return App; });
 /* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("Ogzj");
 /* harmony import */ var _components_ServicesTable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("Qs05");
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("Fl18");
@@ -225,7 +225,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function App() {
-  return h(Fragment, null, h(_components_Header__WEBPACK_IMPORTED_MODULE_0__[/* Header */ "a"], null), h("main", {
+  return h("div", null, h(_components_Header__WEBPACK_IMPORTED_MODULE_0__[/* Header */ "a"], null), h("main", {
     className: "page-content"
   }, h("section", {
     className: "page-section"
@@ -289,7 +289,7 @@ function App() {
     rel: "noreferrer noopenner"
   }, "\u043E\u0441\u0442\u0430\u0432\u044C\u0442\u0435 \u0437\u0430\u044F\u0432\u043A\u0443 \u043E\u043D\u043B\u0430\u0439\u043D"), ", \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E, \u044F\xA0\u0432\u0441\u0435 \u0440\u0430\u0432\u043D\u043E \u0441\u043C\u043E\u0433\u0443 \u0432\u0430\u043C \u043F\u043E\u043C\u043E\u0447\u044C \u0438\u043B\u0438\xA0\u043F\u043E\u0434\u0441\u043A\u0430\u0437\u0430\u0442\u044C, \u043A\xA0\u043A\u043E\u043C\u0443 \u0435\u0449\u0451 \u043E\u0431\u0440\u0430\u0442\u0438\u0442\u044C\u0441\u044F.")))))), h(_components_Footer__WEBPACK_IMPORTED_MODULE_2__[/* Footer */ "a"], null));
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("HteQ")["h"], __webpack_require__("HteQ")["Fragment"]))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("HteQ")["h"]))
 
 /***/ }),
 
