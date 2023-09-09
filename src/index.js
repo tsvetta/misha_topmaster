@@ -6,7 +6,7 @@ import './style';
 
 export default function App() {
 	return (
-		<>
+		<div>
 			<Header />
 
 			<main className="page-content">
@@ -145,6 +145,6 @@ export default function App() {
 			</main>
 
 			<Footer />
-		</>
+		</div>
 	);
 }
